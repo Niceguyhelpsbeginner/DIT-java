@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보안 서비스 웹사이트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">🔒 보안서비스</div>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#services">사용방법</a></li>
+                <li><a href="#login" class="cta">로그인</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner -->
+    <section id="home" class="banner">
+        <h1>동아리방 키를 더욱 안전하게</h1>
+        <p>made by 김성진</p>
+        <a href="#contact" class="cta">자물쇠 열기</a>
+    </section>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('문의가 접수되었습니다. 곧 연락드리겠습니다.');
+        });
+
+    </script>
+</body>
+</html>
