@@ -11,6 +11,8 @@ public class homework1 {
        dollars = scanner.nextInt();
        won = dollars * 1200;
        System.out.println("$" + dollars + " worths " + won);
+       scanner.close();
+
     }
  }
  

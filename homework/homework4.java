@@ -29,3 +29,4 @@ public class homework4 {
         scanner.close();
 
 }
+}

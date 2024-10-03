@@ -20,7 +20,7 @@ public class homework3 {
       zzolmyeon = scanner.nextInt();
       total_price = tteockbboki * tteockbboki_price + kimmali * kimmali_price + zzolmyeon * zzolmyeon_price;
       System.out.println("The total price is" + total_price);
-      
+      scanner.close();
    }
 
 }
